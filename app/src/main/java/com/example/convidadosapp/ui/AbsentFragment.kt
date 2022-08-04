@@ -1,4 +1,4 @@
-package com.example.convidadosapp.ui.slideshow
+package com.example.convidadosapp.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater

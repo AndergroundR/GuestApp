@@ -1,4 +1,4 @@
-package com.example.convidadosapp.ui.gallery
+package com.example.convidadosapp.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -28,7 +28,7 @@ class PresentFragment : Fragment() {
         _binding = FragmentPresentBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textGallery
+        val textView: TextView = binding.navPresent
         presentViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
